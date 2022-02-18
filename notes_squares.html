@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--It is way better to use percentages for css properties because users will be using this on any device. Which percentages will be better than using pixels as pixels are specified for that one device.-->
+<html>
+    <head>
+        <title>Grid Boxes</title>
+        <style>
+            body {
+                margin: 30px;
+            }
+            .container {
+                display: grid;
+                background-color:white;
+                color:#444;
+                grid-template-columns: 100px 100px 100px;
+                grid-gap: 10px;
+            }
+            .box {
+                background-color: #444;
+                color: white;
+                border-radius: 5px;
+                padding: 20px;
+                font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">A</div>
+            <div class="box">B</div>
+            <div class="box">C</div>
+            <div class="box">D</div>
+            <div class="box">E</div>
+            <div class="box">F</div>
+            <div class="box">G</div>
+            <div class="box">H</div>
+            <div class="box">I</div>
+            <div>
+                <p>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

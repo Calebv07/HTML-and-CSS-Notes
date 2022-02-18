@@ -1,0 +1,20 @@
+CSS-->Cascading Style Sheets
+
+Rules-->Selector, property, value
+
+Selector-->where we want the rule applied (<tr>,<td>)[Element, class, ID]
+Property-->What we want to change (color)
+Value-->What we want the property changed to(red)
+
+
+p, h1, td {
+    color:blue;
+}
+
+.blueText {
+    color: blue;
+}
+
+#heading {
+    font-size: 1.5em;
+}

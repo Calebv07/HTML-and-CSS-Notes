@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <style>
+            .container {
+                display:grid;
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+            .container > div {
+                background-color:#eee;
+                padding: 1em;
+            }
+            .container > div:nth-child(odd) {
+                background-color:#ddd;
+                padding: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aliquid deleniti error commodi excepturi saepe eum ipsa est veniam, similique, fuga incidunt! Voluptas magni eaque aliquid, sequi odio quos ipsam, esse, mollitia sint quidem, magnam molestiae repudiandae eius fugit enim ducimus! Fuga adipisci a aliquam, commodi illo necessitatibus nostrum pariatur libero velit officiis, architecto soluta. Ipsam dolore, veniam. Autem facere excepturi labore voluptatem quia veritatis necessitatibus consequatur est, placeat, itaque odio possimus ratione ipsa laboriosam soluta architecto doloribus consectetur voluptate!
+                </p>
+            </div>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores numquam fugit, obcaecati, saepe recusandae reiciendis laudantium exercitationem dolorem quia dolor veniam. Ducimus ipsam, molestias hic consequuntur! Iure perspiciatis reprehenderit ad quos vero voluptatem et numquam perferendis. Ducimus necessitatibus, modi veniam.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
